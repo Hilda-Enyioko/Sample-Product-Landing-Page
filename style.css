@@ -101,6 +101,7 @@ nav {
 
     #menu-icon span {
         background: var(--background-color2);
+        display: block;
         width: 25px;
         height: 3px;
         border-radius: 5px;
