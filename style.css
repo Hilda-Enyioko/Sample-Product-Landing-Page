@@ -102,7 +102,7 @@ nav {
     #menu-icon span {
         background: var(--background-color2);
         width: 25px;
-        height: 2px;
+        height: 3px;
         border-radius: 5px;
         margin: 0 auto 6.5px;
         transition: transform 0.1s ease-in-out;
@@ -126,7 +126,7 @@ nav {
     }
 
     #menu-toggle:checked ~ #menu-icon span:last-child {
-        transform: rotate(-45deg) translate(5px, -5px);
+        transform: rotate(-45deg) translate(7px, -7px);
         background: var(--background-color1);
     }
 }
