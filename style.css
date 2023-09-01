@@ -120,15 +120,16 @@ nav {
         transform: rotate(45deg) translate(5px, 5px);
         background: var(--background-color1);
     }
-
+    
     #menu-toggle:checked ~ #menu-icon span:nth-child(2) {
         opacity: 0;
     }
-
+    
     #menu-toggle:checked ~ #menu-icon span:last-child {
         transform: rotate(-45deg) translate(7px, -7px);
         background: var(--background-color1);
     }
+
 }
 
 #menu-nav {
