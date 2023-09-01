@@ -51,6 +51,14 @@ header {
     margin-left: 80px;
 }
 
+@media screen and (max-width:800px) {
+    #logo {
+        width: 100px;
+        height: 70px;
+        margin-left: 60px;
+    }
+}
+
 #nav-container {
     width: fit-content;
     height: 100%;
@@ -95,7 +103,30 @@ nav {
         background: var(--background-color2);
         width: 25px;
         height: 2px;
+        border-radius: 5px;
         margin: 0 auto 6.5px;
         transition: transform 0.1s ease-in-out;
+    }
+
+    #menu-icon span:first-child {
+        margin-top: 15px;
+    }
+
+    #menu-toggle:checked ~ #menu-icon {
+        background: var(--background-color2);
+    }
+
+    #menu-toggle:checked ~ #menu-icon span:first-child {
+        transform: rotate(45deg) translate(5px, 5px);
+        background: var(--background-color1);
+    }
+
+    #menu-toggle:checked ~ #menu-icon span:nth-child(2) {
+        display: none;
+    }
+
+    #menu-toggle:checked ~ #menu-icon span:last-child {
+        transform: rotate(-45deg) translate(7px, -7px);
+        background: var(--background-color1);
     }
 }
