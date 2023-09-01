@@ -105,7 +105,7 @@ nav {
         width: 25px;
         height: 3px;
         border-radius: 5px;
-        margin: 0 auto 6.5px;
+        margin: 0 auto 6.6px;
         transition: transform 0.1s ease-in-out;
     }
 
@@ -142,4 +142,21 @@ nav {
 
 #menu-nav li {
     margin-right: 16px;
+}
+
+@media screen and (max-width:800px) {
+    #menu-nav {
+        display: none;
+    }
+
+    #menu-toggle:checked ~ #menu-nav {
+        background: var(--background-color2);
+        color: var(--font-color2);
+        display: block;
+        position: fixed;
+        margin-top: 0;
+        top: 63px;
+        right: 0;
+        width: calc(70% * 100vw);
+    }
 }
