@@ -151,12 +151,11 @@ nav {
 
     #menu-toggle:checked ~ #menu-nav {
         background: var(--background-color2);
-        color: var(--font-color2);
+        width: 70vw;
         display: block;
         position: fixed;
         margin-top: 0;
         top: 63px;
         right: 0;
-        width: calc(70% * 100vw);
     }
 }
