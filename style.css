@@ -126,7 +126,7 @@ nav {
     }
 
     #menu-toggle:checked ~ #menu-icon span:last-child {
-        transform: rotate(-45deg) translate(7px, -7px);
+        transform: rotate(-45deg) translate(5px, -5px);
         background: var(--background-color1);
     }
 }
