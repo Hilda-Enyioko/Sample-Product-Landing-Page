@@ -1,0 +1,51 @@
+@media (prefers-reduced-motion:no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+:root {
+    --background-color1: #ffffff;
+    --background-color2: #ffc9ac;
+    --font-color1: #000000;
+    --font-color2: #ffffff;
+}
+
+body {
+    background: var(--background-color1);
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: var(--background-color1);
+    width: 100%;
+    height: fit-content;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+#logo-container {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 135px;
+}
+
+#nav-container {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
