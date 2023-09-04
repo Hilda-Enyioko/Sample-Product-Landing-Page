@@ -183,6 +183,7 @@ nav {
         background: var(--background-color2);
         display: block;
         position: fixed;
+        margin-top: 0;
         top: 63px;
         right: 0;
         width: 85vw;
@@ -196,9 +197,18 @@ nav {
     #menu-nav div {
         background: #ffbe89;
         width: 100%;
-        padding: 17px auto;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        margin-bottom: 10px;
+        margin: 0px 0px 17px;
         display: flex;
         justify-content: center;
+        align-items: left;
+    }
+
+    #menu-nav div:last-child {
+        padding-bottom: 22px;
+        margin-bottom: 0;
     }
 
     #menu-nav a {
