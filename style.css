@@ -201,6 +201,10 @@ nav {
         margin: 0 0 15px;
     }
 
+    #menu-nav li:first-child {
+        margin-bottom: 10px;
+    }
+
     #menu-nav div {
         background: #ffbe89;
         width: 85vw;
@@ -212,7 +216,6 @@ nav {
 
     #menu-nav div:last-child {
         padding-bottom: 22px;
-        margin-bottom: 0;
     }
 
     #menu-nav a {
