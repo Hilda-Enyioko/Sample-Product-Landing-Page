@@ -43,10 +43,10 @@ header {
     background-color: white;
     width: fit-content;
     height: 100%;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #logo {
     height: 80%;
-    width: 150px;
+    width: 100px;
 }
