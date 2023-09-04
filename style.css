@@ -141,6 +141,12 @@ nav {
     right: 22px;
 }
 
+@media screen and (min-width:801px) {
+    #menu-link {
+        display: none;
+    }
+}
+
 #menu-link:hover {
     color: #ffbe89;
 }
@@ -227,14 +233,14 @@ nav {
 }
 
 @media screen and (max-width:800px) {
-    #filler {
+    #menu-toggle:checked ~ #filler {
         background: var(--background-color2);
         display: block;
         position: fixed;
-        height: calc(100vh - 400px);
+        height: calc(100vh - 300px);
         width: 85vw;
-        top: 400px;
-        left: 0;
+        top: 300px;
+        right: 0;
         margin: 0;
         z-index: -1;
     }
