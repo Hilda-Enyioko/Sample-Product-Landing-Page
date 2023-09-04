@@ -198,8 +198,7 @@ nav {
 
     #menu-nav li {
         font-size: 20px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 0 15px;
     }
 
     #menu-nav div {
@@ -208,7 +207,6 @@ nav {
         padding-top: 17px;
         padding-bottom: 17px;
         margin-left: 0;
-        margin-bottom: 20px;
         display: flex;
     }
 
