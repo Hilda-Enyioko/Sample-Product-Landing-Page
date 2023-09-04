@@ -6,7 +6,7 @@
 
 :root {
     --background-color1: #ffffff;
-    --background-color2: #ffc9ac;
+    --background-color2: #ff5d05;
     --font-color1: #2b2929;
     --font-color2: #ffffff;
 }
@@ -44,9 +44,166 @@ header {
     width: fit-content;
     height: 100%;
     margin-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #logo {
     height: 100%;
     width: 120px;
+}
+
+@media screen and (max-width) {
+    #logo {
+        width: 110px;
+    }
+}
+
+#nav-container {
+    background-color: white;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:800px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-icon {
+    background: var(--background-color1);
+    display: inline-block;
+    width: 63px;
+    height: 63px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+@media screen and (min-width:801px) {
+    #menu-icon {
+        display: none;
+    }
+}
+
+#menu-icon span {
+    background-color: var(--background-color2);
+    display: block;
+    width: 30px;
+    height: 3.5px;
+    border-radius: 5px;
+    margin: 0 auto 6.6px;
+    transition: transform 0.1s ease-in-out;
+}
+
+#menu-icon span:first-child {
+    margin-top: 15px;
+}
+
+#menu-toggle:checked ~ #menu-icon {
+    background: var(--background-color2);
+}
+
+#menu-toggle:checked ~ #menu-icon span:first-child {
+    background-color: var(--background-color1);
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-toggle:checked ~ #menu-icon span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked ~ #menu-icon span:last-child {
+    background-color: var(--background-color1);
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+#menu-link {
+    font-size: 7.5px;
+    text-decoration: none;
+    color: var(--background-color2);
+    position: fixed;
+    top: 48px;
+    right: 22px;
+}
+
+#menu-link:hover {
+    color: #ffbe89;
+}
+
+@media screen and (min-width:801px) {
+    #menu-toggle:checked ~ #menu-link {
+        display:none;
+    }
+}
+
+#menu-nav {
+    display: flex;
+    list-style: none;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+#menu-nav li {
+    margin-right: 17px;
+}
+
+#menu-nav a {
+    text-decoration: none;
+    color: var(--background-color2);
+}
+
+@media screen and (min-width:801px) {
+    #menu-nav a:hover {
+        color: #ffbe89;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #menu-nav {
+        display: none;
+    }
+
+    #menu-toggle:checked ~ #menu-nav {
+        background: var(--background-color2);
+        display: block;
+        position: fixed;
+        top: 63px;
+        right: 0;
+        width: 85vw;
+        color: var(--font-color2);
+    }
+
+    #menu-nav li {
+        font-size: 20px;
+    }
+
+    #menu-nav div {
+        background: #ffbe89;
+        width: 100%;
+        padding: 17px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu-nav a {
+        text-decoration: none;
+        cursor: text;
+        color: var(--font-color2);
+    }
 }
