@@ -189,6 +189,7 @@ nav {
         display: block;
         position: fixed;
         margin-top: 0;
+        padding-left: 0;
         top: 63px;
         right: 0;
         width: 85vw;
