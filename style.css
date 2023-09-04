@@ -26,6 +26,7 @@ header {
 }
 
 #header {
+    background-color: red;
     width: 100%;
     height: 80px;
     display: flex;
@@ -39,133 +40,13 @@ header {
 }
 
 #logo-container {
+    background-color: white;
     width: fit-content;
     height: 100%;
-    display: flex;
-    justify-content: center;
+    margin-right: 50px;
 }
 
 #logo {
-    width: 110px;
-    height: 75px;
-    margin-left: 80px;
-}
-
-@media screen and (max-width:800px) {
-    #logo {
-        width: 100px;
-        height: 70px;
-        margin-left: 60px;
-    }
-}
-
-#nav-container {
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-nav {
-    display: flex;
-}
-
-@media screen and (max-width:800px) {
-    nav {
-        height: 100vh;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
-}
-
-#menu-toggle {
-    display: none;
-}
-
-#menu-icon {
-    display: none;
-}
-
-@media screen and (max-width:800px) {
-    #menu-icon {
-        display: flex;
-        flex-direction: column;
-        width: 63px;
-        height: 63px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-    }
-
-    #menu-icon span {
-        background: var(--background-color2);
-        display: block;
-        width: 25px;
-        height: 3px;
-        border-radius: 5px;
-        margin: 0 auto 6.6px;
-        transition: transform 0.1s ease-in-out;
-    }
-
-    #menu-icon span:first-child {
-        margin-top: 15px;
-    }
-
-    #menu-toggle:checked ~ #menu-icon {
-        background: var(--background-color2);
-    }
-
-    #menu-toggle:checked ~ #menu-icon span:first-child {
-        transform: rotate(45deg) translate(5px, 5px);
-        background: var(--background-color1);
-    }
-    
-    #menu-toggle:checked ~ #menu-icon span:nth-child(2) {
-        opacity: 0;
-    }
-    
-    #menu-toggle:checked ~ #menu-icon span:last-child {
-        transform: rotate(-45deg) translate(7px, -7px);
-        background: var(--background-color1);
-    }
-
-}
-
-#menu-nav {
-    display: flex;
-    list-style: none;
-    font-size: 18px;
-    margin-left: 25px;
-}
-
-#menu-nav li {
-    margin-right: 16px;
-}
-
-@media screen and (max-width:800px) {
-    #menu-nav {
-        display: none;
-    }
-
-    #menu-toggle:checked ~ #menu-nav {
-        background: var(--background-color2);
-        width: 70vw;
-        display: block;
-        position: fixed;
-        margin-top: 0;
-        top: 63px;
-        right: 0;
-    }
-
-    #menu-nav li {
-        font-size: 20px;
-        margin-left: 17px;
-    }
-
-    #menu-nav div {
-        background-color: #fccfb7;
-        width: 70vw;
-    }
+    height: 80%;
+    width: 150px;
 }
