@@ -287,5 +287,10 @@ nav {
 
 #cover-image img:first-child {
     width: 100%;
-    height: 600px;
+    height: 650px;
+}
+
+#cover-image img:last-child {
+    position: relative;
+    top: 700px;
 }
