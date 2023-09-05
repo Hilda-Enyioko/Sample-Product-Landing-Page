@@ -198,6 +198,7 @@ nav {
         right: 0;
         width: 85vw;
         color: var(--font-color2);
+        z-index: 1;
     }
 
     #menu-nav li {
