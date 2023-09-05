@@ -77,7 +77,6 @@ nav {
 @media screen and (max-width:800px) {
     nav {
         flex-direction: column;
-        z-index: -1;
     }
 }
 
@@ -251,7 +250,6 @@ nav {
     position: fixed;
     right: 67px;
     top: 20px;
-    z-index: -1;
 }
 
 #login-container button {
