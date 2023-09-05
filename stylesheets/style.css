@@ -72,6 +72,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
     z-index: 1;
 }
 
@@ -292,5 +293,5 @@ nav {
 
 #cover-image img:last-child {
     position: relative;
-    top: -500px;
+    top: -300px;
 }
