@@ -1,3 +1,5 @@
+@import url(Nivea-style.css);
+
 @media (prefers-reduced-motion:no-preference) {
     * {
         scroll-behavior: smooth;
@@ -13,7 +15,7 @@
 
 body {
     background: var(--background-color1);
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Nivea Regular, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -39,7 +41,6 @@ header {
 }
 
 #logo-container {
-    background-color: white;
     width: fit-content;
     height: 100%;
     margin-left: 50px;
@@ -59,7 +60,6 @@ header {
 }
 
 #nav-container {
-    background-color: white;
     width: fit-content;
     height: 100%;
     display: flex;
@@ -202,7 +202,7 @@ nav {
     }
 
     #menu-nav li:first-child {
-        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     #menu-nav div {
@@ -257,4 +257,16 @@ nav {
         opacity: 0.5;
         right: 63px;
     }
+}
+
+#login-container {
+    display: block;
+    margin-right: 65px;
+    color: var(--font-color2);
+}
+
+#login-container button {
+    background-color: var(--background-color2);
+    width: 50px;
+    height: 30px;
 }
