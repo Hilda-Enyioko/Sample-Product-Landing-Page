@@ -248,8 +248,8 @@ nav {
 #login-container {
     display: block;
     position: fixed;
-    right: 65px;
-    top: 30px;
+    right: 67px;
+    top: 20px;
     color: var(--font-color2);
 }
 
@@ -258,4 +258,5 @@ nav {
     width: 70px;
     height: 40px;
     border: 2px solid #ffbe89;
+    border-radius: 5px;
 }
