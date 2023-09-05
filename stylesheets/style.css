@@ -72,8 +72,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    z-index: 1;
 }
 
 @media screen and (max-width:800px) {
@@ -95,6 +93,7 @@ nav {
     top: 0;
     right: 0;
     cursor: pointer;
+    z-index: 1
 }
 
 @media screen and (min-width:801px) {
