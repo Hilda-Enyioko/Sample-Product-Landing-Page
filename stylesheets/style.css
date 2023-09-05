@@ -250,13 +250,13 @@ nav {
     position: fixed;
     right: 67px;
     top: 20px;
-    color: var(--font-color2);
 }
 
 #login-container button {
     background-color: var(--background-color2);
     width: 70px;
     height: 40px;
+    color: var(--font-color2);
     border: 2px solid #ffbe89;
     border-radius: 5px;
 }
