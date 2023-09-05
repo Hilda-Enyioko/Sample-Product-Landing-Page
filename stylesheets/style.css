@@ -89,7 +89,7 @@ nav {
     display: inline-block;
     width: 63px;
     height: 63px;
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     cursor: pointer;
@@ -154,7 +154,7 @@ nav {
 
 @media screen and (min-width:801px) {
     #menu-toggle:checked ~ #menu-link {
-        display:none;
+        color: var(--font-color2);
     }
 }
 
