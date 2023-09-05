@@ -248,7 +248,7 @@ nav {
 #login-container {
     display: block;
     position: relative;
-    right: 67px;
+    right: -67px;
     top: 20px;
 }
 
