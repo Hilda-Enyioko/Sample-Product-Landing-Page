@@ -247,10 +247,9 @@ nav {
 
 #login-container {
     display: block;
-    position: fixed;
+    position: relative;
     right: 67px;
     top: 20px;
-    z-index: 1;
 }
 
 #login-container button {
@@ -262,6 +261,11 @@ nav {
     font-size: 15px;
     border: 2px solid #ffbe89;
     border-radius: 5px;
+}
+
+#login-container button:hover {
+    font-weight: 400;
+    cursor: pointer;
 }
 
 @media screen and (max-width:800px) {
@@ -277,7 +281,6 @@ nav {
 #cover-image {
     width: 100%;
     height: fit-content;
-    z-index: 2;
 }
 
 #cover-image img:first-child {
