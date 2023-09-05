@@ -93,7 +93,7 @@ nav {
     top: 0;
     right: 0;
     cursor: pointer;
-    z-index: 0;
+    z-index: 1;
 }
 
 @media screen and (min-width:801px) {
@@ -138,7 +138,7 @@ nav {
     font-size: 7.5px;
     text-decoration: none;
     color: var(--background-color2);
-    position: fixed;
+    position: absolute;
     top: 48px;
     right: 22px;
     z-index: 1;
@@ -190,7 +190,7 @@ nav {
     #menu-toggle:checked ~ #menu-nav {
         background: var(--background-color2);
         display: block;
-        position: fixed;
+        position: absolute;
         margin-top: 0;
         padding-left: 0;
         padding-bottom: 300px;
@@ -239,12 +239,13 @@ nav {
 @media screen and (max-width:800px) {
     #divider {
         display: block;
-        position: fixed;
+        position: absolute;
         height: 63px;
         width: 0;
         border-left: 1px solid var(--background-color2);
         opacity: 0.5;
         right: 63px;
+        z-index: 1;
     }
 }
 
