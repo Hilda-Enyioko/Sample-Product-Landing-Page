@@ -141,6 +141,7 @@ nav {
     position: fixed;
     top: 48px;
     right: 22px;
+    z-index: 1;
 }
 
 @media screen and (min-width:801px) {
