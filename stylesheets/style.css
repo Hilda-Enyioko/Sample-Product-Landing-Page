@@ -251,9 +251,10 @@ nav {
 
 #login-container {
     display: block;
-    position: relative;
-    right: -367px;
+    position: absolute;
+    right: 67px;
     top: 20px;
+    z-index: 1;
 }
 
 #login-container button {
