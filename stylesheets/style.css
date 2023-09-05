@@ -277,7 +277,6 @@ nav {
 
 #cover-image {
     width: 100%;
-    z-index: 1;
 }
 
 #cover-image img:first-child {
