@@ -250,6 +250,7 @@ nav {
     position: fixed;
     right: 67px;
     top: 20px;
+    z-index: 1;
 }
 
 #login-container button {
@@ -275,9 +276,11 @@ nav {
 
 #cover-image {
     width: 100%;
+    height: fit-content;
+    z-index: 2;
 }
 
 #cover-image img:first-child {
     width: 100%;
-    height: calc(100vw - 80px);
+    height: 80vw;
 }
