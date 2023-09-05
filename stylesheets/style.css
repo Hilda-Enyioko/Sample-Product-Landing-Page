@@ -89,7 +89,7 @@ nav {
     display: inline-block;
     width: 63px;
     height: 63px;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     cursor: pointer;
