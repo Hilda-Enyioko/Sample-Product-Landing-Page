@@ -292,5 +292,5 @@ nav {
 
 #cover-image img:last-child {
     position: relative;
-    top: 700px;
+    top: -500px;
 }
