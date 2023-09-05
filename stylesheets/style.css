@@ -279,4 +279,5 @@ nav {
 
 #cover-image img:first-child {
     width: 100%;
+    height: calc(100vw - 80px);
 }
