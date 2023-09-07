@@ -287,11 +287,11 @@ nav {
     }
 }
 
-/* #cover-image {
+#cover-image {
     width: 100%;
     height: fit-content;
     z-index: 2;
-} */
+}
 
 #cover-image img:first-child {
     width: 100%;
@@ -315,7 +315,6 @@ nav {
 
     #cover-image img:last-child {
         top: 275px;
-        left: 0;
-        margin: 0;
+        left: -20px;
     }
 }
