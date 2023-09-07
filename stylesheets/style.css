@@ -292,7 +292,7 @@ nav {
     width: 100vw;
     height: fit-content;
     z-index: 2;
-    overflow: hidden;
+    
 }
 
 #cover-image img:first-child {
@@ -300,7 +300,7 @@ nav {
     height: 650px;
 }
 
-/* #cover-image img:last-child {
+/*#cover-image img:last-child {
     display: block;
     position: absolute;
     top: 425px;
@@ -313,7 +313,7 @@ nav {
         height: 500px;
     }
 
-    #cover-image img:last-child {
+  #cover-image img:last-child {
         top: 275px;
         right: 0;
     }
