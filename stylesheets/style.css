@@ -314,15 +314,7 @@ nav {
 
     #cover-image img:last-child {
         width: 70%;
-        top: 400px;
+        top: 350px;
         left: 20px;
-    }
-}
-
-@media screen and (max-width:480px) {
-    #cover-image img:last-child {
-        width: 80%;
-        top: 400px;
-        left: 10px;
     }
 }
