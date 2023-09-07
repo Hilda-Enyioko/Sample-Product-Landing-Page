@@ -301,6 +301,6 @@ nav {
 #cover-image img:last-child {
     display: block;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 80px;
 }
