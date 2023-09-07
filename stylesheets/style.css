@@ -301,19 +301,19 @@ nav {
 
 #cover-image img:last-child {
     display: block;
-    width: 70%;
+    width: 50%;
     position: absolute;
     top: 425px;
     left: 75px;
 }
 
-/*@media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
     #cover-image img:first-child {
-        height: 500px;
+        height: 400px;
     }
 
-  #cover-image img:last-child {
-        top: 275px;
-        right: 0;
+    #cover-image img:last-child {
+        width: 70%;
+        top: 175;
     }
-}*/
+}
