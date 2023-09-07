@@ -296,15 +296,13 @@ nav {
 #cover-image img:first-child {
     width: 100%;
     height: 650px;
-    z-index: 2;
 }
 
 #cover-image img:last-child {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 425px;
     left: 75px;
-    z-index: 2;
 }
 
 @media screen and (max-width:800px) {
