@@ -292,10 +292,11 @@ nav {
     width: 100vw;
     height: fit-content;
     z-index: 2;
+    overflow: hidden;
 }
 
 #cover-image img:first-child {
-    width: 100%;
+    width: 100vw;
     height: 650px;
 }
 
