@@ -313,6 +313,6 @@ nav {
 
     #cover-image img:last-child {
         top: 275px;
-        left: 20px;
+        left: 0;
     }
 }
