@@ -54,6 +54,10 @@ header {
 }
 
 @media screen and (max-width:800px) {
+    #logo-container {
+        margin-left: 20px;
+    }
+
     #logo {
         width: 110px;
     }
@@ -295,6 +299,6 @@ nav {
 }
 
 #cover-image img:last-child {
-    position: relative;
-    top: -300px;
+    position: absolute;
+    top: 600px;
 }
