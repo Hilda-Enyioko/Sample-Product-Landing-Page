@@ -357,6 +357,7 @@ nav {
     text-align: center;
     color: var(--background-color2);
     font-size: 20px;
+    margin: 0 auto;
 }
 
 #sales-pitch span:first-child {
@@ -373,19 +374,21 @@ nav {
     align-items: center;
     width: 75%;
     color: var(--background-color2);
+    margin: 10px auto 20px;
 }
 
 #design div {
     width: 30%;
     height: 0;
-    border: 5px solid var(--background-color2);
+    border: 2px solid var(--background-color2);
 }
 
 #services a {
     text-decoration: none;
+    margin: 0 auto;
 }
 
-#services buttton {
+#services button {
     background-color: var(--background-color2);
     width: 70%;
     height: 20px;
