@@ -388,26 +388,27 @@ nav {
 }
 
 #grid {
+    background: var(--background-color2);
     display: grid;
-    width: 100vw;
     gap: 10px;
+    padding: 10px
 }
 
 #grid1 {
     color: var(--background-color2);
-    border: 3px solid #ffbe89;
+    border: 5px solid #ffbe89;
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
 }
 
 #grid2 {
-    border: 3px solid #ffbe89;
+    border: 5px solid #ffbe89;
     grid-column-start: 2 / span 1;
 }
 
 #grid3 {
     color: var(--background-color2);
-    border: 3px solid #ffbe89;
+    border: 5px solid #ffbe89;
     grid-column-start: 3 / span 1;
     grid-row: 1 / span 2;
 }
@@ -415,4 +416,9 @@ nav {
 #grid .textbox {
     width: 760px;
     height: 760px;
+}
+
+#grid img {
+    width: 763px;
+    height: 763px;
 }
