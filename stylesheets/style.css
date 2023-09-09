@@ -415,13 +415,13 @@ nav {
 #grid .textbox {
     background: var(--background-color1);
     width: 30vw;
-    height: 100px;
+    height: 120px;
     text-align: center;
     padding: 10px;
 }
 
 #grid img {
-    width: calc(30vw + 10px);
+    width: calc(30vw + 20px);
     height: 320px;
     margin: 0;
 }
