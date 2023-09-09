@@ -419,6 +419,7 @@ nav {
 #grid .textbox {
     background: var(--background-color1);
     width: 100%;
+    text-align: center;
 }
 
 #grid img {
