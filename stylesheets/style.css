@@ -395,7 +395,7 @@ nav {
 }
 
 #grid1 {
-    color: var(--font-color2);
+    color: var(--background-color2);
     border: 5px solid #ffbe89;
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
@@ -409,7 +409,7 @@ nav {
 }
 
 #grid3 {
-    color: var(--font-color2);
+    color: var(--background-color2);
     border: 5px solid #ffbe89;
     grid-column-start: 3 / span 1;
     grid-row: 1 / span 2;
@@ -417,6 +417,7 @@ nav {
 }
 
 #grid .textbox {
+    background: var(--background-color1);
     width: 100%;
 }
 
