@@ -395,30 +395,32 @@ nav {
 }
 
 #grid1 {
-    color: var(--background-color2);
+    color: var(--font-color2);
     border: 5px solid #ffbe89;
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
+    width: 30%;
 }
 
 #grid2 {
     border: 5px solid #ffbe89;
     grid-column-start: 2 / span 1;
+    width: 30%;
 }
 
 #grid3 {
-    color: var(--background-color2);
+    color: var(--font-color2);
     border: 5px solid #ffbe89;
     grid-column-start: 3 / span 1;
     grid-row: 1 / span 2;
+    width: 30%
 }
 
 #grid .textbox {
-    width: 760px;
-    height: 760px;
+    width: 100%;
 }
 
 #grid img {
-    width: 763px;
-    height: 763px;
+    width: 100%;
+    height: 300px;
 }
