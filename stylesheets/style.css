@@ -388,9 +388,9 @@ nav {
 }
 
 #grid {
+    margin: 20px 0;
     display: grid;
     gap: 10px;
-    padding: 10px
 }
 
 #grid1 {
@@ -415,6 +415,7 @@ nav {
 #grid .textbox {
     background: var(--background-color1);
     width: 30vw;
+    height: 100px;
     text-align: center;
     padding: 10px;
 }
@@ -422,4 +423,5 @@ nav {
 #grid img {
     width: calc(30vw + 10px);
     height: 320px;
+    margin: 0;
 }
