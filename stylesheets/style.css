@@ -340,7 +340,7 @@ nav {
 
     #cover-image img:last-child {
         width: 70%;
-        top: 300px;
+        top: 280px;
         left: 5px;
     }
 }
@@ -373,14 +373,22 @@ nav {
 #design {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 75%;
     margin: 10px auto 20px;
+    padding: 0;
 }
 
 #design div {
     width: 30%;
     height: 0;
     border: 1px solid var(--background-color2);
+    margin-top: 0;
+}
+
+#design p {
+    font-size: 20px;
+    margin-top: 0;
 }
 
 #services a {
@@ -395,5 +403,11 @@ nav {
     color: var(--font-color2);
     font-size: 20px;
     border: 3px solid #ffbe89;
-    border-radius: 30%;
+    border-radius: 30px;
+}
+
+#grid {
+    display: grid;
+    width: 100vw;
+    gap: 10px;
 }
