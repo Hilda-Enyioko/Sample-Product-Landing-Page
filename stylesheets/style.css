@@ -404,7 +404,7 @@ nav {
 
 #grid2 {
     border: 5px solid #ffbe89;
-    grid-column-start: 2 / span 1;
+    grid-column: 2 / span 1;
     width: 30%;
 }
 
