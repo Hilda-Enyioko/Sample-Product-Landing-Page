@@ -371,27 +371,6 @@ nav {
     font-style: italic;
 }
 
-#design {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    margin: 10px auto 20px;
-    padding: 0;
-}
-
-#design div {
-    width: 30%;
-    height: 0;
-    border: 1px solid var(--background-color2);
-    margin-top: 0;
-}
-
-#design p {
-    font-size: 20px;
-    margin-top: 0;
-}
-
 #services a {
     text-decoration: none;
     margin: 0 auto;
@@ -427,7 +406,13 @@ nav {
 }
 
 #grid3 {
+    color: var(--background-color2);
     border: 3px solid #ffbe89;
     grid-column-start: 3 / span 1;
     grid-row: 1 / span 2;
+}
+
+#grid .textbox {
+    width: 760px;
+    height: 760px;
 }
