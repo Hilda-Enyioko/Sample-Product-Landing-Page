@@ -390,6 +390,7 @@ nav {
 #about-us {
     width: fit-content;
     margin: 0 auto;
+    background-color: black;
 }
 
 #gallery {
@@ -397,6 +398,7 @@ nav {
     width: 95vw;
     height: fit-content;
     margin: 0 auto;
+    background-color: red;
 }
 
 .items {
