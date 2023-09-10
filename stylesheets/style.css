@@ -392,6 +392,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .grid-item {
