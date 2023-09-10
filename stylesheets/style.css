@@ -451,16 +451,16 @@ nav {
         display: block;
         padding: 12px 10px;
         font-size: 12px;
-    }    
+    }
+    
+    .items img {
+        height: 120px;
+    }
 }
 
 @media screen and (min-width:481px) {
     .big-scrn-txt {
         display: block;
         padding: 12px 10px;
-    }
-
-    .items img {
-        height: 120px;
     }
 }
