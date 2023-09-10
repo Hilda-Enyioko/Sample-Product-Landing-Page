@@ -424,7 +424,6 @@ nav {
     margin: 0;
 }
 
-
 .small-scrn-txt {
     display: none;
 }
@@ -442,12 +441,6 @@ nav {
     }
 }
 
-@media screen and (min-width:481px) {
-    .big-srcn-txt {
-        display: block;
-        padding: 12px 10px;
-    }
-}
 
 @media screen and (max-width:480px) {
     .big-srcn-txt {
@@ -459,4 +452,11 @@ nav {
         padding: 12px 10px;
         font-size: 12px;
     }    
+}
+
+@media screen and (min-width:481px) {
+    .big-srcn-txt {
+        display: block;
+        padding: 12px 10px;
+    }
 }
