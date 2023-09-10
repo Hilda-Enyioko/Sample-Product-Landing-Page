@@ -390,13 +390,13 @@ nav {
 #grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 
 .grid-item {
     border: 3px solid #ffbe89;
-    padding: 10px;
+    padding: 0;
     text-align: center;
     color: var(--background-color2);
 }
