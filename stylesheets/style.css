@@ -460,7 +460,7 @@ nav {
         padding: 12px 10px;
     }
 
-    items img {
+    .items img {
         height: 120px;
     }
 }
