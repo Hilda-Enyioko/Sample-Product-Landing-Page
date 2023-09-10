@@ -394,7 +394,7 @@ nav {
     align-items: center;
 }
 
-#grid-item {
+.grid-item {
     border: 3px solid #ffbe89;
     padding: 10px;
     text-align: center;
