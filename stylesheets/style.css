@@ -401,6 +401,11 @@ nav {
     color: var(--background-color2);
 }
 
+.grid-item img {
+    width: 27vw;
+    height: 400px;
+}
+
 #grid1 {
     grid-row: span 1;
 }
