@@ -409,15 +409,15 @@ nav {
 }
 
 #img1 {
-    background-image: url('media/about-img1.jpg');
+    background: url('media/about-img1.jpg');
 }
 
 #img2 {
-    background-image: url('media/about-img2.jpg');
+    background: url('media/about-img2.jpg');
 }
 
 #img3 {
-    background-image: url('media/about-img3.jpg');
+    background: url('media/about-img3.jpg');
 }
 
 .textbox {
