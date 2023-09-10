@@ -459,4 +459,8 @@ nav {
         display: block;
         padding: 12px 10px;
     }
+
+    items img {
+        height: 120px;
+    }
 }
