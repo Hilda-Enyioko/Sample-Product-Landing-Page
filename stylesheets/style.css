@@ -403,8 +403,12 @@ nav {
 
 .grid-item img {
     width: 26vw;
-    height: 400px;
+    height: 350px;
     margin: 0;
+}
+
+.textbox {
+    margin: 10px;
 }
 
 #grid1 {
