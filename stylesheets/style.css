@@ -306,6 +306,7 @@ nav {
     width: 100vw;
     height: fit-content;
     z-index: 2;
+    background-color: red;
 }
 
 #cover-image img:first-child {
