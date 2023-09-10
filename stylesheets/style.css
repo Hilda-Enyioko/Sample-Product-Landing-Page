@@ -332,7 +332,7 @@ nav {
 
     #cover-image img:last-child {
         width: 70%;
-        top: 280px;
+        top: 270px;
         left: 5px;
     }
 }
@@ -353,7 +353,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px auto;
+    margin: 60px auto;
     width: 75%;
     text-align: center;
     color: var(--background-color2);
@@ -424,8 +424,12 @@ nav {
     margin: 0;
 }
 
-.items p {
+.big-srcn-txt {
     padding: 12px 10px;
+}
+
+.small-scrn-txt {
+    display: none;
 }
 
 #item1, #item3 {
@@ -439,4 +443,15 @@ nav {
     .items img {
         height: 200px;
     }
+}
+
+@media screen and (max-width:480px) {
+    .big-srcn-txt {
+        display: none;
+    }
+    
+    .small-scrn-txt {
+        padding: 12px 10px;
+        font-size: 12px;
+    }    
 }
