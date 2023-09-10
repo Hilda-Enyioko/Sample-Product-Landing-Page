@@ -309,7 +309,7 @@ nav {
 }
 
 #cover-image img:first-child {
-    width: 100%;
+    width: 98%;
     height: 650px;
 }
 
@@ -387,6 +387,11 @@ nav {
     border-radius: 30px;
 }
 
+#about-us {
+    width: fit-content;
+    margin: 0 auto;
+}
+
 #gallery {
     display: flex;
     width: 95vw;
@@ -395,9 +400,10 @@ nav {
 }
 
 .items {
-    width: calc(95vw / 3);
+    width: calc(84vw / 3);
     height: fit-content;
     border: 3px solid #ffbe89;
+    margin-right: 10px;
 }
 
 .items hr {
