@@ -388,44 +388,27 @@ nav {
 }
 
 #grid {
-    margin: 20px 0;
     display: grid;
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+#grid-item {
+    border: 3px solid #ffbe89;
+    padding: 10px;
+    text-align: center;
+    color: var(--background-color2);
 }
 
 #grid1 {
-    color: var(--background-color2);
-    border: 5px solid #ffbe89;
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 2;
-    padding: 0;
-    margin: 0;
+    grid-row: span 1;
 }
 
 #grid2 {
-    border: 5px solid #ffbe89;
-    grid-column: 2 / span 1;
-    padding: 0;
+    grid-row: span 2;
 }
 
 #grid3 {
-    color: var(--background-color2);
-    border: 5px solid #ffbe89;
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 2;
-    padding: 0;
-}
-
-#grid .textbox {
-    background: var(--background-color1);
-    width: 27vw;
-    height: 130px;
-    text-align: center;
-    padding: 15px;
-}
-
-#grid img {
-    width: calc(25vw + 35px);
-    height: 300px;
-    margin: 0;
+    grid-row: span 2;
 }
