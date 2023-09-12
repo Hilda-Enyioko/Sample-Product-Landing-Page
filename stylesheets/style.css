@@ -471,8 +471,9 @@ nav {
 }
 
 #contact, #login {
-    display: inline-block;
-    width: 40vw;
+    float: left;
+    box-sizing: border-box;
+    width: 45vw;
     height: 300px;
     margin-top: 10px;
 }
