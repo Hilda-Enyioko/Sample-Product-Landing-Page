@@ -470,6 +470,7 @@ nav {
 }
 
 #about-us a {
+    text-decoration: none;
     margin: 20px auto;
 }
 
@@ -504,4 +505,19 @@ nav {
 #login {
     background: var(--font-color1);
     color: var(--background-color2);
+}
+
+form {
+    display: block;
+}
+
+@media screen and (max-width:480px) {
+    #user p {
+        font-size: 15px;
+    }
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
 }
