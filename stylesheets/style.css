@@ -474,7 +474,7 @@ nav {
     #about-us button {
         font-size: 15px;
         height: 40px;
-        width: 20px;
+        width: 150px;
     }
 }
 
@@ -491,8 +491,10 @@ nav {
 
 #contact {
     background: var(--background-color2);
+    margin-left: 15px;
 }
 
 #login {
     background-image: var(--font-color1);
+    color: var(--background-color2);
 }
