@@ -488,6 +488,7 @@ nav {
     align-items: center;
     justify-content: center;;
     margin: 0 auto;
+    color: var(--font-color1);
 }
 
 #contact, #login {
@@ -508,7 +509,8 @@ nav {
 }
 
 form {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width:480px) {
@@ -520,4 +522,6 @@ form {
 footer {
     width: 100vw;
     height: 50px;
+    box-sizing: border-box;
+    background: var(--font-color1);
 }
