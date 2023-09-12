@@ -470,6 +470,14 @@ nav {
     margin: 20px auto;
 }
 
+@media screen and (max-width:480px) {
+    #about-us button {
+        font-size: 15px;
+        height: 40px;
+        width: 20px;
+    }
+}
+
 #user {
     display: flex;
     margin: 0 auto;
