@@ -322,10 +322,6 @@ nav {
 }
 
 @media (min-width:481px) and (max-width:800px) {
-    #cover-image {
-        width: 96vw;
-    }
-
     #cover-image img:first-child {
         height: 400px;
     }
@@ -394,6 +390,7 @@ nav {
 #about-us {
     width: 98vw;
     margin: 0 auto;
+    background-color: red;
 }
 
 #gallery {
@@ -484,7 +481,7 @@ nav {
 
 #user {
     display: flex;
-    width: 95vw;
+    width: 95%;
     align-items: center;
     justify-content: center;;
     margin: 20px auto 70px;
@@ -492,7 +489,7 @@ nav {
 }
 
 #contact, #login {
-    width: 45vw;
+    width: 45%;
     height: 300px;
     margin-top: 20px;
     padding: 15px;
@@ -513,9 +510,22 @@ form {
     flex-direction: column;
 }
 
+label[for="password"] {
+    margin-top: 10px;
+}
+
+#submit {
+    margin-top: 10px;
+    width: 35px;
+    background-color: var(--background-color2);
+    border: 3px solid #ffbe89;
+    border-radius: 5px;
+    color: var(--font-color2);
+}
+
 @media screen and (max-width:480px) {
     #user p {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
