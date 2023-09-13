@@ -388,7 +388,7 @@ nav {
 }
 
 #about-us {
-    width: 98vw;
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -476,7 +476,7 @@ nav {
 }
 
 #user p {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 #contact, #login {
@@ -532,7 +532,7 @@ input {
 
 #submit {
     margin-top: 10px;
-    width: 50px;
+    width: 45px;
     background-color: var(--background-color2);
     border: 3px solid #ffbe89;
     border-radius: 5px;
@@ -549,20 +549,45 @@ input {
     }
 }
 
+@media screen and (min-width:801px) {
+    input {
+        width: 200px;
+    }
+
+    #submit {
+        width: 70px
+    }
+}
+
+@media (min-width:481px) and (max-width:800px) {
+    #submit {
+        width: 65px;
+    }
+}
+
 footer {
     width: 100%;
     height: 50px;
     box-sizing: border-box;
     background: var(--font-color1);
     color: var(--background-color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer a:first-child {
     text-decoration: none;
     color: var(--font-color2);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 footer a:first-child:hover {
     color: #ffbe89;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
