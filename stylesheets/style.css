@@ -438,6 +438,7 @@ nav {
 }
 
 #about-us div:last-child {
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -503,6 +504,7 @@ nav {
 #contact a {
     text-decoration: underline;
     color: white;
+    margin-top: 5px;
 }
 
 #social {
@@ -513,6 +515,10 @@ nav {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+#social img:last-child {
+    margin-right: 0;
 }
 
 #login {
@@ -527,6 +533,10 @@ form {
 
 label[for="password"] {
     margin-top: 10px;
+}
+
+input {
+    width: 100px;
 }
 
 #submit {
@@ -544,7 +554,7 @@ label[for="password"] {
     }
 
     #contact a {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
