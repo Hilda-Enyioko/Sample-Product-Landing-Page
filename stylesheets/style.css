@@ -437,7 +437,7 @@ nav {
     height: fit-content;
 }
 
-#about-us a {
+#about-us div:last-child {
     margin: 0 auto;
 }
 
@@ -500,6 +500,21 @@ nav {
     margin-left: 15px;
 }
 
+#contact a {
+    text-decoration: underline;
+    color: white;
+}
+
+#social {
+    display: flex;
+}
+
+#social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
 #login {
     background: var(--font-color1);
     color: var(--background-color2);
@@ -516,7 +531,7 @@ label[for="password"] {
 
 #submit {
     margin-top: 10px;
-    width: 35px;
+    width: 50px;
     background-color: var(--background-color2);
     border: 3px solid #ffbe89;
     border-radius: 5px;
@@ -525,7 +540,11 @@ label[for="password"] {
 
 @media screen and (max-width:480px) {
     #user p {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    #contact a {
+        font-size: 13px;
     }
 }
 
