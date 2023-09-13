@@ -11,15 +11,15 @@
         <title>Home Tech</title>
     </head>
     <body>
-        <header>
-            <div id="header">
+        <header id="header">
+            <div class="header">
                 <div id="logo-container">
                     <a href="https://home-tech-by-hilda.netlify.app/">
-                        <img src="media/brand_logo.png" loading="eager" alt="Home Tech Logo" id="logo" />
+                        <img src="media/brand_logo.png" loading="eager" alt="Home Tech Logo" id="header-img" />
                     </a>
                 </div>
                 <div id="nav-container">
-                    <nav>
+                    <nav id="nav-bar">
                         <input id="menu-toggle" type="checkbox" />
                         <label id="menu-icon" for="menu-toggle">
                             <span></span>
@@ -30,12 +30,12 @@
                         <ul id="menu-nav">
                             <li>
                                 <div>
-                                    <a href="https://home-tech-by-hilda.netlify.app/">HOME</a>
+                                    <a href="https://home-tech-by-hilda.netlify.app/" class="nav-link">HOME</a>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <a href="#services">SERVICES</a>
+                                    <a href="#services" class="nav-link">SERVICES</a>
                                 </div>
                             </li>
                             <li>
@@ -45,12 +45,12 @@
                             </li>
                             <li>
                                 <div>
-                                    <a href="#about-us">ABOUT US</a>
+                                    <a href="#about-us" class="nav-link">ABOUT US</a>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <a href="#contact">CONTACT</a>
+                                    <a href="#contact" class="nav-link">CONTACT</a>
                                 </div>
                             </li>
                         </ul>
@@ -120,7 +120,7 @@
             </div>
             <div id="login">
                 <h2>Log In</h2>
-                <form method="get">
+                <form method="post" id="form" action="https://www.freecodecamp.com/email-submit">
                     <label for="email">Email: <input id="email" type="email" placeholder="Enter your email" required /></label>
                     <label for="password">Password: <input id="password" type="password" placeholder="********" /></label>
                     <input id="submit" value="LOGIN" type="submit" />
