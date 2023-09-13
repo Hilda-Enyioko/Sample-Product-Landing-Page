@@ -303,7 +303,7 @@ nav {
 
 #cover-image {
     display: inline-block;
-    width: 98vw;
+    width: 100%;
     height: fit-content;
     z-index: 2;
 }
@@ -392,7 +392,7 @@ nav {
 }
 
 #about-us {
-    width: fit-content;
+    width: 98vw;
     margin: 0 auto;
 }
 
@@ -402,6 +402,7 @@ nav {
     height: fit-content;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .items {
@@ -435,8 +436,12 @@ nav {
     text-align: center;
 }
 
-#item-2 {
+#item2 {
     height: fit-content;
+}
+
+#about-us a {
+    margin: 0 auto;
 }
 
 @media (min-width:481px) and (max-width:800px) {
@@ -469,11 +474,6 @@ nav {
     }
 }
 
-#about-us a {
-    text-decoration: none;
-    margin: 20px auto;
-}
-
 @media screen and (max-width:480px) {
     #about-us button {
         font-size: 15px;
@@ -487,7 +487,7 @@ nav {
     width: 95vw;
     align-items: center;
     justify-content: center;;
-    margin: 0 auto;
+    margin: 20px auto 70px;
     color: var(--font-color1);
 }
 
@@ -520,7 +520,7 @@ form {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 50px;
     box-sizing: border-box;
     background: var(--font-color1);
