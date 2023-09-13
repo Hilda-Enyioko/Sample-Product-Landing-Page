@@ -437,11 +437,6 @@ nav {
     height: fit-content;
 }
 
-#about-us div:last-child {
-    width: fit-content;
-    margin: 0 auto;
-}
-
 @media (min-width:481px) and (max-width:800px) {
     .items img {
         height: 200px;
@@ -504,7 +499,7 @@ nav {
 #contact a {
     text-decoration: underline;
     color: white;
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 #social {
@@ -515,6 +510,7 @@ nav {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    margin-top: 0;
 }
 
 #social img:last-child {
