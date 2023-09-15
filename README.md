@@ -12,4 +12,4 @@ This page is a product landing page for a pseudo tech firm called HOME TECH BY H
 2 [CSS](https://github.com/Hilda-Enyioko/Sample-Product-Landing-Page/blob/main/styles.css)
 
 ## Deployed Page:
-View deployed page [here](https://home-tech-by-hilda.netlify.app/)
+View deployed page [here](https://hilda-enyioko.github.io/Sample-Product-Landing-Page/)
